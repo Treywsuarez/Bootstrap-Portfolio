@@ -52,7 +52,7 @@
 
     <main>
         <!-- About Me section -->
-        <section class="about">
+        <section id="about">
             <h2>About Me</h2>
             <div class="container">
                 <div class="row">
@@ -65,7 +65,7 @@
 
         <!-- Portfolio Section -->
         <!-- card 1 -->
-        <section class="portfolio">
+        <section id="portfolio">
             <h2>Portfolio</h2>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-4">
@@ -121,11 +121,33 @@
             </div>
         </section>
 
-        <section class="contact">
-            
+        <section id="contact">
+            <div class="container">
+                <div class="contact-form">
+                <form name="submit-to-google-sheet">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                  <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                </div>  
+              </div>
         </section>
-
     </main>
+    
+    <footer class="emailContain">
+        <form>
+          <h4 class="sectionHeading">Send an email</h4>
+          <div class="form-group">
+            <label for="exampleInputmsg">Message</label>
+            <input type="email" class="form-control" id="exampleInputmsg" aria-describedby="emailHelp"
+              placeholder="Enter Message">
+          </div>
+          <button type="submit" class="btn btn-primary">Email now</button>
+        </form>
+      </footer>
+    
 
 
 </body>
