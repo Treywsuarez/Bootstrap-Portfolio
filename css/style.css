@@ -9,6 +9,10 @@ html{
     scroll-behavior: smooth;
 }
 
+section{
+    margin: 30px 150px;
+}
+
 /* Styling Nav Section */
 
 /* General */
@@ -46,4 +50,24 @@ html{
     background-repeat: no-repeat;
     height: calc(100vh - 300px);
     display: flex;
+}
+
+/* About Me Section */
+#about img{
+    width: 50%;
+    display: flex;
+    
+}
+
+footer{
+  background: black;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.ftext{
+    color: white;
 }
