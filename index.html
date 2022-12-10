@@ -9,6 +9,7 @@
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/cb2c037dac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Bootstrap Portfolio</title>
 </head>
 
@@ -74,54 +75,64 @@
         <section id="portfolio">
             <h2>Portfolio</h2>
             <div class="container"></div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col mb-4">
-                        <div class="card">
-                            <img src="./images/horiseon.jpeg" class="card-img-top" alt="screenshot of horiseon webpage">
-                            <div class="card-body">
-                                <h5 class="card-title">Heriseon</h5>
-                                <p class="card-text">This is a deployed webpage for Horiseon. It was built with HTML and CSS<br><br><a href="https://treywsuarez.github.io/Horiseon/">See Live</a></p>
-                            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/horiseon.jpeg" class="card-img-top" alt="screenshot of horiseon webpage">
+                        <div class="card-body">
+                            <h5 class="card-title">Heriseon</h5>
+                            <p class="card-text">This is a deployed webpage for Horiseon. It was built with HTML and
+                                CSS<br><br><a href="https://treywsuarez.github.io/Horiseon/">See Live</a></p>
                         </div>
                     </div>
-                    <!-- card 1 -->
-
-                    <!-- card 2 -->
-                    <div class="col mb-4">
-                        <div class="card">
-                            <img src="./images/jakeseatery.jpeg" class="card-img-top" alt="screenshot of Jake's Eatery website">
-                            <div class="card-body">
-                                <h5 class="card-title">Jake's Eatery website</h5>
-                                <p class="card-text">This is a webpage for Jake's Eatery restaurant built using HTML and CSS.<br><br><a href="https://lovearchies.com/">See Live</a></p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card 2 -->
-
-                    <!-- card 3 -->
-                    <div class="col mb-4">
-                        <div class="card">
-                            <img src="./images/csscheatsheet.jpeg" class="card-img-top" alt="image of a CSS cheat sheet with guides on how to use CSS">
-                            <div class="card-body">
-                                <h5 class="card-title">CSS Cheat Sheet</h5>
-                                <p class="card-text">This is a css cheat sheet built using html and css. <br><br><a href="https://www.cheatsheet.com/">See Live</a></p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card 3 -->
-
-                    <!-- card 4 -->
-                    <div class="col mb-4">
-                        <div class="card">
-                            <img src="./images/firstportfolio.jfif" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">First Portfolio</h5>
-                                <p class="card-text">This is a portfolio website built using html, css and simple javascript.<br><br><a href="https://treywsuarez.github.io/First-Portfolio/">See Live</a></p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card 4 -->
                 </div>
+                <!-- card 1 -->
+
+                <!-- card 2 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/jakeseatery.jpeg" class="card-img-top"
+                            alt="screenshot of Jake's Eatery website">
+                        <div class="card-body">
+                            <h5 class="card-title">Jake's Eatery website</h5>
+                            <p class="card-text">This is a webpage for Jake's Eatery restaurant built using HTML and
+                                CSS.<br><br><a href="https://lovearchies.com/">See Live</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+
+                <!-- card 3 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/csscheatsheet.jpeg" class="card-img-top"
+                            alt="image of a CSS cheat sheet with guides on how to use CSS">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Cheat Sheet</h5>
+                            <p class="card-text">This is a css cheat sheet built using html and css. <br><br><a
+                                    href="https://www.cheatsheet.com/">See Live</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+
+                <!-- card 4 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./images/firstportfolio.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">First Portfolio</h5>
+                            <p class="card-text">This is a portfolio website built using html, css and simple
+                                javascript.<br><br><a href="https://treywsuarez.github.io/First-Portfolio/">See Live</a>
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+            </div>
             </div>
         </section>
         <!-- End of Portfolio Section -->
@@ -145,11 +156,20 @@
 
     <!-- Footer Section -->
     <footer class="copyright ftext">
+        <div class="wrapper">
+            <div class="icon facebook">
+                <div class="tooltip">Facebook</div> <a href="https://en-gb.facebook.com/"><span><i class="fab fa-facebook-f"></i></span></a>
+            </div>
+
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div> <a href="https://twitter.com/"><span><i class="fab fa-twitter"></i></span></a>
+            </div>
+            <div class="icon github">
+                <div class="tooltip">github</div> <a href="https://github.com/"><span><i class="fab fa-github"></i></span></a>
+            </div>
+        </div> <br><br>
         <p>copyright &copy; Trey Suarez 🚀</p>
     </footer>
     <!-- End of Footer Section -->
-
-
 </body>
-
 </html>
