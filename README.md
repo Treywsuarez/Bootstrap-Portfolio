@@ -10,6 +10,8 @@ HTML5 was used to create the layout of the webpage along with my different secti
 
 # Usage
 
+Use the link here to deploy the website: https://treywsuarez.github.io/Bootstrap-Portfolio/
+
 ![alt text](./images/Screenshot%202022-12-10%20032731.png)
 
 # Credits
