@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Styling Nav Section */
+
+/* General */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black !important;
+}
+
+/* Styling Name in the nav */
+.navbar a{
+    color: white !important;
+}
+
+/* Styling navigation links */
+.navbar-nav a{
+    color: white !important;  
+}
+
+
+/* Styling hero section */
+/* jumbotron copy */
+.jumbotronCopy{
+    width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+/* hero image styling */
+.jumbotron{
+    background-image: url(../images/lunar-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 300px);
+}
