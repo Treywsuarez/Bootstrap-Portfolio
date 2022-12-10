@@ -108,7 +108,34 @@ i{
     text-decoration: none;
 }
 
-
+/* Contact Me section */
+.contact-form form{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  
+  form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  
+  form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
 
 /* Footer Section */
 footer{
