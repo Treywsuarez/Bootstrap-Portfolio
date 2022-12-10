@@ -8,9 +8,18 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color:black;
+}
 
 section{
     margin: 30px 150px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
 
 /* Styling Nav Section */
@@ -20,6 +29,7 @@ section{
     position: fixed;
     width: 100%;
     background-color: black !important;
+    z-index: 10;
 }
 
 /* Styling Name in the nav */
@@ -36,7 +46,7 @@ section{
 /* Styling hero section */
 /* jumbotron copy */
 .jumbotronCopy{
-    width: 70%;
+  width: 70%;
   min-width: 500px;
   max-width: 700px;
   color: white;
@@ -53,14 +63,33 @@ section{
 }
 
 /* About Me Section */
+#about .container{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 #about img{
-    width: 50%;
+    width: 100%;
     display: flex;
+    border-radius: 10%;
     
 }
 
+.colP{
+    color: white;
+    font-size: 18px;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+i{
+    padding: 10px;
+    font-size: 60px;
+}
+
+/* Footer Section */
 footer{
-  background: black;
+  background: #014288;
   width: 100%;
   text-align: center;
   padding: 10px;
