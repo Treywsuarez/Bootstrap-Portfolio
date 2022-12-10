@@ -34,7 +34,7 @@ h2{
 }
 
 /* Styling Name in the nav */
-.navbar a{
+.bg-light div {
     color: white !important;
 }
 
@@ -42,7 +42,6 @@ h2{
 .navbar-nav a{
     color: white !important;  
 }
-
 
 /* Styling hero section */
 /* jumbotron copy */
