@@ -23,7 +23,7 @@ MIT License
 
 # Features
 
-Fixed Nav bar for easy usability 
-Hover effects on footer social icons
-Accessible on smaller screens
+Fixed Nav bar for easy usability <br>
+Hover effects on footer social icons <br>
+Accessible on smaller screens <br>
 Nav menu auto scrolls to website sections
