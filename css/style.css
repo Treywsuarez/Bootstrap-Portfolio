@@ -45,4 +45,5 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 300px);
+    display: flex;
 }
